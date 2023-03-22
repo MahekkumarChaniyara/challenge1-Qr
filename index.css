@@ -20,15 +20,15 @@ body{
     background-color: white;
     box-shadow:  0px 0px 21px 1px #bdbdbd;
     border-radius: 9px;
-    /* scale:1;
-    transition: scale 0.5s ease-out; */
+    scale:1;
+    transition: scale 0.5s ease-out,box-shadow 0.5s ease-out;
 }
 
-/* .white-container:hover{
+.white-container:hover{
     scale: 1.1;
     box-shadow:  0px 0px 21px 5px #bdbdbd;
     
-} */
+}
 
 .image-container{
     width: 90%;
@@ -38,16 +38,13 @@ body{
     border-radius: 9px;
     overflow: hidden;
 }
-.image-container:hover{
-   
-}
 
 .image-container img{
     width:100%;
     scale: 1;
     transition: scale 0.5s ease-out ;
     border-radius: 9px;
-    overflow: hidden;
+    /* overflow: hidden; */
 }
 
 .image-container img:hover{
